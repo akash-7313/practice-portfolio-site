@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.heading{
+    color: orange;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(#f74f25, #f78366a8);
+    padding: 8px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.first{
+    display: flex;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.place{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: ;
+}
+.place img{
+    width: 85%;
+}
+.second{
+    display: flex;
+    background-image: url(dream-bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+}
