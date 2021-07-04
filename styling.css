@@ -12,14 +12,16 @@ h1{
 }
 .link{
     text-decoration: none;
-    background-image: linear-gradient(#f74f25, #f78366a8);
+    background-image: linear-gradient(#857130, #f83e10a8);
     padding: 8px 20px;
     color: white;
     font-weight: 600;
     border-radius: 5px;
 }
-.first{
+.beside{
     display: flex;
+}
+.first{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 150px;
@@ -27,15 +29,50 @@ h1{
 .place{
     width: 50%;
     padding-left: 5%;
-    padding-right: ;
 }
 .place img{
     width: 85%;
 }
 .second{
-    display: flex;
     background-image: url(dream-bg.png);
     background-position: right bottom;
     background-repeat: no-repeat;
-
+    margin-bottom: 150px;
+}
+.shadow{
+    box-shadow: 10px 10px 20px #b89292;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+.font{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.third{
+    background-image: url(exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+}
+.third p{
+    text-align: justify;
+}
+#border2{
+    border-image: linear-gradient(blue,cyan);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+#border1{
+    border-image: linear-gradient(salmon,tomato);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
