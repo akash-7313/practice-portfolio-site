@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(#f7f2f7,#f7e7f7);
+}
+h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.orange{
+    color: blue;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(blue, blueviolet);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.img-width{
+    width: 450px;
+}
+.beside{
+    display: flex;
+}
+.first{
+    background-image: url(topb.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    
+}
+.place{
+    width: 50%;
+    padding-left: 60px;
+}
+.second{
+    background-image: url(dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.third{
+    background-image: url(exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.third .box h1{
+    font-size: 30px;
+}
+.box{
+     box-shadow: 1px 1px 25px slateblue;
+     text-align: justify;
+     margin-right: 20px;
+     margin-left: 40px;
+     padding-right: 30px;
+     padding-left: 40px;
+     padding-bottom: 20px;
+     width: 40%;
+     border-radius: 10px;
+}
+#bimage{
+    border-image: linear-gradient(blue,#f7061a);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+#cimage{
+    border-image: linear-gradient(#f7061a,blue);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
